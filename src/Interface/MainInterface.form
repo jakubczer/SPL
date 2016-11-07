@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Interface.MainInterface">
+  <grid id="27dc6" binding="MainViewField" default-binding="true" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="824" height="599"/>
+    </constraints>
+    <properties>
+      <background color="-14079703"/>
+      <enabled value="true"/>
+      <foreground color="-11842741"/>
+      <opaque value="true"/>
+      <preferredSize width="800" height="800"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="820fe" layout-manager="GridLayoutManager" row-count="8" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="1" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14079703"/>
+          <foreground color="-2960686"/>
+          <opaque value="true"/>
+        </properties>
+        <border type="line" title="Właściwości">
+          <font/>
+          <title-color color="-2960686"/>
+          <color color="-11842741"/>
+        </border>
+        <children>
+          <component id="649dc" class="javax.swing.JList" binding="sampleRateList">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14079703"/>
+              <foreground color="-2960686"/>
+              <model>
+                <item value="44,1 kHz"/>
+                <item value="48 kHz"/>
+              </model>
+              <selectionMode value="0"/>
+            </properties>
+          </component>
+          <component id="78e8c" class="javax.swing.JList" binding="fWeightingList">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="114"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14079703"/>
+              <foreground color="-2960686"/>
+              <model>
+                <item value="A"/>
+                <item value="C"/>
+                <item value="Z"/>
+              </model>
+              <selectionMode value="0"/>
+            </properties>
+          </component>
+          <component id="a8233" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12171706"/>
+              <foreground color="-2960686"/>
+              <inheritsPopupMenu value="true"/>
+              <opaque value="true"/>
+              <text value="Okno próbkowania"/>
+            </properties>
+          </component>
+          <component id="4def" class="javax.swing.JList" binding="windowFunctionList">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14079703"/>
+              <enabled value="true"/>
+              <foreground color="-2960686"/>
+              <model>
+                <item value="Rectangle"/>
+                <item value="Bartlett"/>
+                <item value="Hanning"/>
+                <item value="Hamming"/>
+                <item value="Blackman"/>
+              </model>
+              <selectionMode value="0"/>
+            </properties>
+          </component>
+          <component id="6fa34" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12171706"/>
+              <foreground color="-2960686"/>
+              <inheritsPopupMenu value="true"/>
+              <opaque value="true"/>
+              <text value="Czas próbkowania"/>
+            </properties>
+          </component>
+          <component id="e8e58" class="javax.swing.JList" binding="sampleWeightingList">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14079703"/>
+              <enabled value="true"/>
+              <foreground color="-2960686"/>
+              <model>
+                <item value="Impulse"/>
+                <item value="Fast"/>
+                <item value="Slow"/>
+              </model>
+              <selectionMode value="0"/>
+            </properties>
+          </component>
+          <component id="edf31" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12171706"/>
+              <doubleBuffered value="false"/>
+              <foreground color="-2960686"/>
+              <opaque value="true"/>
+              <text value="Krzywa korekcyjna"/>
+            </properties>
+          </component>
+          <component id="b10a1" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="4" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12171706"/>
+              <enabled value="true"/>
+              <foreground color="-2960686"/>
+              <horizontalTextPosition value="0"/>
+              <inheritsPopupMenu value="true"/>
+              <opaque value="true"/>
+              <text value="Częstotliwość Próbkowania"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="c4e24" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14079703"/>
+          <opaque value="true"/>
+        </properties>
+        <border type="none">
+          <font/>
+          <title-color color="-4473925"/>
+          <color color="-11842741"/>
+        </border>
+        <children>
+          <component id="8a9c2" class="javax.swing.JButton" binding="startButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11842741"/>
+              <foreground color="-2960686"/>
+              <text value="Start"/>
+            </properties>
+          </component>
+          <component id="e3e9d" class="javax.swing.JButton" binding="stopButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11842741"/>
+              <foreground color="-2960686"/>
+              <text value="Stop"/>
+            </properties>
+          </component>
+          <component id="f58" class="javax.swing.JButton" binding="calibrateButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11842741"/>
+              <foreground color="-2960686"/>
+              <text value="Kalibracja"/>
+            </properties>
+          </component>
+          <component id="75560" class="javax.swing.JButton" binding="micEqButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11842741"/>
+              <foreground color="-2960686"/>
+              <hideActionText value="false"/>
+              <text value="Wybierz plik korekcji mikrofonu"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="bad6a" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14079703"/>
+          <font size="28"/>
+        </properties>
+        <border type="line" title="" title-justification="1" title-position="2">
+          <font/>
+          <title-color color="-2960686"/>
+          <color color="-11842741"/>
+        </border>
+        <children>
+          <component id="9f665" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="18"/>
+              <foreground color="-8356864"/>
+              <text value="Stan:"/>
+            </properties>
+          </component>
+          <component id="2371" class="javax.swing.JLabel" binding="stateText">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="18"/>
+              <foreground color="-8356864"/>
+              <text value="Stop"/>
+            </properties>
+          </component>
+          <component id="a0bf2" class="javax.swing.JLabel" binding="resultsLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="22"/>
+              <foreground color="-2960686"/>
+              <text value="Lxy: "/>
+            </properties>
+          </component>
+          <component id="d68e5" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <focusable value="true"/>
+              <font size="18"/>
+              <foreground color="-8356864"/>
+              <text value="Plik korekcji:"/>
+            </properties>
+          </component>
+          <component id="fc8af" class="javax.swing.JLabel" binding="micEqFileLabel">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="18"/>
+              <foreground color="-8356864"/>
+              <text value="Brak"/>
+            </properties>
+          </component>
+          <component id="d4f95" class="javax.swing.JList" binding="leqList">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="140" height="100"/>
+              </grid>
+            </constraints>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-11842741"/>
+              <font name="Utopia" size="34"/>
+              <foreground color="-2960686"/>
+              <model/>
+              <opaque value="true"/>
+              <requestFocusEnabled value="false"/>
+              <selectionMode value="0"/>
+            </properties>
+          </component>
+          <component id="5acf" class="javax.swing.JButton" binding="max_act">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11842741"/>
+              <enabled value="true"/>
+              <foreground color="-2960686"/>
+              <text value="Przełącz na wartości maksymalne"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <vspacer id="c13f4">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>

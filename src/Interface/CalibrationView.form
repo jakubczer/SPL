@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Interface.CalibrationView">
+  <grid id="cbd77" binding="contentPane" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="48" y="54" width="507" height="276"/>
+    </constraints>
+    <properties>
+      <background color="-14079703"/>
+      <opaque value="true"/>
+      <preferredSize width="550" height="300"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="94766" layout-manager="GridLayoutManager" row-count="2" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14079703"/>
+          <opaque value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="9538f" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <opaque value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="5723f" class="javax.swing.JButton" binding="buttonCancel">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-11842741"/>
+                  <borderPainted value="false"/>
+                  <focusPainted value="false"/>
+                  <foreground color="-2960686"/>
+                  <requestFocusEnabled value="false"/>
+                  <text value="Zakończ"/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+              <hspacer id="d9a65">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+            </children>
+          </grid>
+          <component id="7d29b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="83" height="21"/>
+              </grid>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <focusable value="true"/>
+              <foreground color="-2960686"/>
+              <horizontalTextPosition value="11"/>
+              <text value="Wynik kalibracji:"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+          <component id="43407" class="javax.swing.JLabel" binding="wynikLabel">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-2960686"/>
+              <text value="Wynik"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+          <component id="f95f" class="javax.swing.JProgressBar" binding="calibPB">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <foreground color="-11382190"/>
+              <indeterminate value="false"/>
+              <value value="0"/>
+            </properties>
+          </component>
+          <component id="e9ce9" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-2960686"/>
+              <text value="Postęp kalibracji:"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="e3588" layout-manager="GridLayoutManager" row-count="4" column-count="6" same-size-horizontally="false" same-size-vertically="true" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="362" height="174"/>
+          </grid>
+        </constraints>
+        <properties>
+          <opaque value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="da9ec" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="83" height="21"/>
+              </grid>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <focusable value="true"/>
+              <foreground color="-2960686"/>
+              <horizontalTextPosition value="11"/>
+              <text value="Ile jeszcze można przyjąć"/>
+            </properties>
+          </component>
+          <component id="164dc" class="javax.swing.JSpinner" binding="spinner1" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="83" height="32"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-11842741"/>
+              <font size="14"/>
+              <foreground color="-8356864"/>
+              <opaque value="true"/>
+              <verifyInputWhenFocusTarget value="false"/>
+            </properties>
+          </component>
+          <component id="1afff" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="83" height="21"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-2960686"/>
+              <text value="Wybierz kanał"/>
+            </properties>
+          </component>
+          <component id="2aab3" class="javax.swing.JButton" binding="startCalibrationBtn">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11842741"/>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <foreground color="-2960686"/>
+              <opaque value="true"/>
+              <requestFocusEnabled value="false"/>
+              <text value="Rozpocznij kalibrację"/>
+              <verifyInputWhenFocusTarget value="false"/>
+            </properties>
+          </component>
+          <vspacer id="69cd0">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <hspacer id="ae280">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="4d803" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-2960686"/>
+              <text value="dB"/>
+            </properties>
+          </component>
+          <component id="21478" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-2960686"/>
+              <text value="Wartość kalibratora:"/>
+            </properties>
+          </component>
+          <component id="a7890" class="javax.swing.JLabel" binding="maximumValue">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="40" height="21"/>
+              </grid>
+            </constraints>
+            <properties>
+              <alignmentX value="0.0"/>
+              <enabled value="true"/>
+              <focusCycleRoot value="false"/>
+              <focusTraversalPolicyProvider value="false"/>
+              <focusable value="true"/>
+              <foreground color="-2960686"/>
+              <horizontalTextPosition value="11"/>
+              <text value="Max"/>
+            </properties>
+          </component>
+          <component id="687ea" class="javax.swing.JProgressBar" binding="maxPB">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-256"/>
+              <indeterminate value="false"/>
+              <value value="50"/>
+            </properties>
+          </component>
+          <component id="c9625" class="javax.swing.JTextField" binding="calibratorVal">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="42" height="21"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="94"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
